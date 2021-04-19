@@ -1,6 +1,7 @@
 class Tabelas {
   init(conexao) {
     this.conexao = conexao;
+
     this.criarAtendimentos();
   }
 
@@ -12,7 +13,7 @@ class Tabelas {
       if (erro) {
         console.log(erro);
       } else {
-        console.log('Tabela Atendimentos criada com sucesso!');
+        console.log('Tabela Atendimentos criada com sucesso');
       }
     });
   }
